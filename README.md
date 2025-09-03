@@ -130,21 +130,21 @@ There are different strategies to achieve an environment that behaves the way yo
     ```
 
 ## FAQ
-**My environment cannot be solved. How do I fix it?**  
+### My environment cannot be solved. How do I fix it?
 You can make you dependencies less strict, or just delete the temporary environment and start again.
 
-**Where are the `uv` environments saved?**  
+### Where are the `uv` environments saved?
 `uv` creates temporary environments in the user's cache folder, located in `%LOCALAPPDATA%/uv/cache` for Windows and `$HOME/.cache/uv` on Mac/Linux. You can get the location of the cache folder by running `uv` in verbose mode, i.e. `uv run -v ...`.
 
-**How big are the virtual environments?**  
+### How big are the virtual environments?
 The disk space required for an environment varies depending on the number of dependencies. Here is a rough guide:
 
 - No dependencies (standard Python library only): <100 Mb  
 - Typical data science dependencies (`numpy`, `pandas`, `matplotlib`): ~150 Mb
 - More complex dependencies: > 200 Mb
 
-**Can I use script metadata in all of my 1000s of scripts?**  
+### Can I use script metadata in all of my 1000s of scripts?
 If you have a large number of scripts with similar dependencies, it's better to use a [project structure](https://docs.astral.sh/uv/concepts/projects/).
 
-**Why 'sunscreen'?**  
+### Why 'sunscreen'?
 Like UV radiation, `uv` is powerful and can be intimidating for new users. Sunscreen means you don't have to think about `uv`, and can just continue having fun in the sun.
