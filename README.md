@@ -11,6 +11,9 @@ You can share your Python scripts with others with confidence that everything wi
 3. Rename the batchfile/shell script so it matches your Python file (e.g. `main.bat` -> `myscript.bat` if you have `myscript.py`).
 4. Double-click the batchfile/shell script to run.
 
+
+![demo](docs/sunscreen.gif)
+
 ## Background
 
 Sharing a simple Python script is not always as simple as it should be.
