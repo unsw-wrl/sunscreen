@@ -115,7 +115,7 @@ There are different strategies to achieve an environment that behaves the way yo
     This approach will install the latest package versions that were published before the specified date.
 
 3. **Strict**  
-    For maximum control, and reproducibilty you can lock your script to specific versions.
+    For maximum control and reproducibilty you can lock your script to specific versions.
 
     ```python
     # /// script
