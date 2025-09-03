@@ -1,4 +1,4 @@
-echo off
+@echo off
 setlocal enabledelayedexpansion
 
 :: Install UV if not installed
